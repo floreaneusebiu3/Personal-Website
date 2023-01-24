@@ -1,0 +1,13 @@
+un sumator la alegere
+un inmultitor la alegere
+documentatie de o pagina
+de incarcat doar vhdl si documentatie
+
+1. sumator simplu 1x1
+2. ripple carry adder
+3. carry-look ahead
+4. carry select adder
+5. carry save adder
+6. serial adder
+
+gasesti tot in laborator
