@@ -12,11 +12,10 @@
     <div class = "header" id = "headerId">
 
         <div class = "menuItems"> 
-            <div> <a href="#titleId" class="homeButton">Home</a> </div>
-            <div> <a href="/" class="aboutMe">About Me</a> </div>
-            <div> <a href="/" class="studiesButton">Studies</a>  </div>
-            <div> <a href="/" class="experienceButton">Experience</a> </div>
-            <div> <a href="/" class="projectsButton">Projects</a> </div>
+            <div> <a href="#upId" class="homeButton">Home</a> </div>
+            <div> <a href="#abme" class="aboutMe">About Me</a> </div>
+            <div> <a href="#stud" class="studiesButton">Studies</a>  </div>
+            <div> <a href="#proj" class="projectsButton">Projects</a> </div>
         </div>
 
         <div class = "conctactContainer">
@@ -31,7 +30,7 @@
     </div>
 
     
-    <div class ="mainScreen">
+    <div class ="mainScreen", id = "upId">
            
     <div class = "center-container">
       
@@ -89,7 +88,7 @@
 </div>
 
 
-    <h1>
+    <h1 id = "abme">
         About Me
     </h1>
     <div class="aboutMeContainer">
@@ -115,10 +114,7 @@
          </div>    
     </div>
 
-
-
-
-    <h1>
+    <h1 id = "stud">
         Studies
     </h1>
 
@@ -138,8 +134,51 @@
         
     </div>
 
-    <h1> Projects </h1>
+    <h1 id = "proj"> Projects </h1>
 
+    <div class="mainProjectContainer">
+        <div class = "projectContainer">
+            <h1 class = "projectTitle"> Mine Field</h1>
+            <p class="projectDescription">
+                This is a game in which you have to reach each position on the map, following the instructions and without accessing a box that has a mine.
+            </p>
+            <div class="programmingLanguages">
+                 <p>HTML</p>
+                 <p>CSS</p>
+                 <p>JAVA SCRIPT</p>
+                 <p>NODEMON</p>
+            </div>
+            <div class="imagesInProject">
+                 <img class = "imgInProjectContainer" src="images/startMineField.png" alt="">  
+                 <img class = "imgInProjectContainer" src="images/winMineField.png" alt="">  
+                 <img class = "imgInProjectContainer" src="images/gameOverMineField.png" alt="">  
+            </div>
+            <div class = "gitLink">
+                <a href="https://github.com/floreaneusebiu3/MineField">source code here</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="mainProjectContainer">
+        <div class = "projectContainer">
+            <h1 class = "projectTitle"> Booking-Clone</h1>
+            <p class="projectDescription">
+                This is a clone of Booking where you can register with 2 types of accounts: user and owner. 
+                This application has similar functionalities to the Booking application.
+            </p>
+            <div class = "programmingLanguages1">
+                 <p >JAVA</p>
+            </div>
+            <div class="imagesInProject">
+                 <img class = "imgInProjectContainer" src="images/client.png" alt="">  
+                 <img class = "imgInProjectContainer" src="images/owner1.png" alt="">  
+                 <img class = "imgInProjectContainer" src="images/owner2.png" alt="">  
+            </div>
+            <div class = "gitLink">
+                <a href="https://github.com/floreaneusebiu3/Booking-Client-Server-Application">source code here</a>
+            </div>
+        </div>
+    </div>
 
 </body>
 
